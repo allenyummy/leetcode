@@ -2,7 +2,7 @@
 
 // TC: O(N)
 // SC: O(N)
-function method(nums: number[], target: number): number[] {
+function twoSum(nums: number[], target: number): number[] {
   const hash_map = new Map();
   for (let i = 0; i <= nums.length; i++) {
     const diff = target - nums[i];
@@ -14,4 +14,4 @@ function method(nums: number[], target: number): number[] {
   return [];
 }
 
-console.log(method([2, 7, 11, 15], 9)); // [1, 0]
+console.log(twoSum([2, 7, 11, 15], 9)); // [1, 0]

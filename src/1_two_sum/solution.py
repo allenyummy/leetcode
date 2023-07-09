@@ -1,10 +1,10 @@
-# https://leetcode.com/problems/two-sum/
+## https://leetcode.com/problems/two-sum/
 
 from typing import List
 
 ## TC: O(N)
 ## SC: O(N)
-def method(nums: List[int], target: int) -> List[int]:
+def twoSum(nums: List[int], target: int) -> List[int]:
     hash_map = {}
     for i, num in enumerate(nums):
         diff = target - num
@@ -16,4 +16,4 @@ def method(nums: List[int], target: int) -> List[int]:
 
 
 if __name__ == "__main__":
-    print(method([2, 7, 11, 15], 9))  ## [1, 0]
+    print(twoSum([2, 7, 11, 15], 9))  ## [1, 0]
