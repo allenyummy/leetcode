@@ -15,6 +15,7 @@ The use of the Sliding Window technique can be done in a very specific scenario,
 ## When to use
 
 ## Related problems
+- [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 ## Reference
 - https://www.geeksforgeeks.org/window-sliding-technique/
