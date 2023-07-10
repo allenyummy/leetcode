@@ -17,6 +17,7 @@ The use of the Sliding Window technique can be done in a very specific scenario,
 ## Related problems
 - [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - [2760. Longest Even Odd Subarray With Threshold](https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/)
+- [1876. Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)
 
 ## Reference
 - https://www.geeksforgeeks.org/window-sliding-technique/
